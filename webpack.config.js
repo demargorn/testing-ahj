@@ -40,10 +40,10 @@ const config = {
             type: 'asset',
          },
          {
-            test: /\.(gif|png|jpg|jpeg|svg)?$/,
+            test: /\.(png|jpe?g|gif)$/i,
             loader: 'file-loader',
             options: {
-               name: 'public/[name].[ext]',
+               name: '[path][name].[ext]',
             },
          },
       ],
