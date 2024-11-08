@@ -1,0 +1,150 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   min-height: 100vh;
+   background: #cfdbd5;
+   padding-top: 100px;
+   box-sizing: border-box;
+}
+
+.card-container {
+   position: relative;
+   width: 300px;
+   height: 200px;
+   background: rgb(255, 255, 255);
+   border: 3px solid #333533;
+   border-radius: 20px;
+   box-sizing: border-box;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.logos-block {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 25px;
+}
+
+.logo {
+   height: 30px;
+   opacity: 0.2;
+}
+
+.logo-visible {
+   opacity: 1;
+}
+
+/* visa-theme */
+.visa-theme {
+   background: #00509d;
+}
+
+.visa-theme .logo-visa {
+   opacity: 1;
+}
+
+.visa-theme .card-container {
+   border-color: #00296b;
+}
+
+.visa-theme .entry-field {
+   border-color: #00509d;
+}
+
+.visa-theme .button {
+   background: #bfd7ea;
+   border-color: #0645ad;
+}
+
+/* master-card-theme */
+.master-card-theme {
+   background: #c32f27;
+}
+
+.master-card-theme .logo-master-card {
+   opacity: 1;
+}
+
+.master-card-theme .card-container {
+   border-color: #780116;
+}
+
+.master-card-theme .entry-field {
+   border-color: #db7c26;
+}
+
+.master-card-theme .button {
+   background: #bfd7ea;
+   border-color: #780116;
+}
+
+/* mir-theme */
+.mir-theme {
+   background: #0a8754;
+}
+
+.mir-theme .logo-mir {
+   opacity: 1;
+}
+
+.mir-theme .card-container {
+   border-color: #004f2d;
+}
+
+.mir-theme .entry-field {
+   border-color: #508ca4;
+}
+
+.mir-theme .button {
+   background: #bfd7ea;
+   border-color: #91aec1;
+}
+
+/* Стили для поля ввода */
+.entry-field-block {
+   margin-top: 30px;
+}
+
+.entry-field {
+   display: flex;
+   height: 50px;
+   width: 250px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 2px solid #333533;
+   border-radius: 8px;
+   box-sizing: border-box;
+   font-size: 20px;
+   padding-left: 25px;
+   padding-right: 25px;
+   outline: none;
+}
+
+.entry-field::placeholder {
+   font-size: 20px;
+   color: #242423;
+   text-align: center;
+   opacity: 0.5;
+}
+
+.entry-field:focus::placeholder {
+   opacity: 0;
+}
+
+/* Стили для кнопки */
+.button-block {
+   margin-top: 15px;
+   margin-left: 150px;
+}
+
+.button {
+   height: 30px;
+   border: 2px solid #333533;
+   cursor: pointer;
+   border-radius: 5px;
+   background: #d4d4d4;
+   color: #242423;
+}
