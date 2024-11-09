@@ -1,5 +1,5 @@
 import './style.css';
 import './app.js';
-import '../public/Visa_Inc._logo.png';
-import '../public/Mir-logo.png';
-import '../public/MasterCard_Logo.png'
+import '../public/visa_logo.png';
+import '../public/mir_logo.png';
+import '../public/master-card_logo.png'

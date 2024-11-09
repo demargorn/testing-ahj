@@ -22,7 +22,7 @@ body {
    margin-right: auto;
 }
 
-.logos-block {
+.logos {
    display: flex;
    justify-content: space-around;
    margin-top: 25px;
@@ -42,7 +42,7 @@ body {
    background: #00509d;
 }
 
-.visa-theme .logo-visa {
+.visa-theme .visa-logo {
    opacity: 1;
 }
 
@@ -64,7 +64,7 @@ body {
    background: #c32f27;
 }
 
-.master-card-theme .logo-master-card {
+.master-card-theme .master-card-logo {
    opacity: 1;
 }
 
@@ -86,7 +86,7 @@ body {
    background: #0a8754;
 }
 
-.mir-theme .logo-mir {
+.mir-theme .mir-logo {
    opacity: 1;
 }
 
@@ -135,16 +135,16 @@ body {
 }
 
 /* Стили для кнопки */
-.button-block {
-   margin-top: 15px;
-   margin-left: 150px;
-}
-
 .button {
+   display: block;
+   font-size: 12px;
+   margin-top: 15px;
+   margin-left: auto;
+   margin-right: auto;
    height: 30px;
-   border: 2px solid #333533;
    cursor: pointer;
    border-radius: 5px;
+   border: 2px solid #333533;
    background: #d4d4d4;
    color: #242423;
 }
