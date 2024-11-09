@@ -47,7 +47,7 @@ body {
 }
 
 .visa-theme .card-container {
-   border-color: #00296b;
+   border-color: #2437ce;
 }
 
 .visa-theme .entry-field {
@@ -56,12 +56,12 @@ body {
 
 .visa-theme .button {
    background: #bfd7ea;
-   border-color: #0645ad;
+   border-color: #2437ce;
 }
 
 /* master-card-theme */
 .master-card-theme {
-   background: #c32f27;
+   background: #eb001b;
 }
 
 .master-card-theme .master-card-logo {
@@ -69,7 +69,7 @@ body {
 }
 
 .master-card-theme .card-container {
-   border-color: #780116;
+   border-color: #eb001b;
 }
 
 .master-card-theme .entry-field {
@@ -83,7 +83,7 @@ body {
 
 /* mir-theme */
 .mir-theme {
-   background: #0a8754;
+   background: #018453;
 }
 
 .mir-theme .mir-logo {
@@ -91,7 +91,7 @@ body {
 }
 
 .mir-theme .card-container {
-   border-color: #004f2d;
+   border-color: #018453;
 }
 
 .mir-theme .entry-field {
@@ -100,7 +100,7 @@ body {
 
 .mir-theme .button {
    background: #bfd7ea;
-   border-color: #91aec1;
+   border-color: #018453;
 }
 
 /* Стили для поля ввода */
